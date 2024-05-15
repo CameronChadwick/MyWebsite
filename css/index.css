@@ -14,11 +14,7 @@ a {
     text-decoration: none;
 }
 
-
-main {
-    background-color: #505168;
-    height: 30rem;
-}
+/* Header/Footer */
 
 footer {
     background-color: #969B9C;
@@ -80,4 +76,61 @@ header {
 .social {
     font-size: x-large;
     color: black;
+}
+
+/* Main */
+
+main {
+    background-color: #505168;
+    height: 30rem;
+    align-items: center;
+}
+
+.raised-lft {
+    background-color: azure;
+    width: 40rem;
+    height: 25rem;
+    position: absolute;
+    margin: 2.5rem 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0.25rem 0.25rem black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btns-div {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.btns {
+    width: 7rem;
+    height: 2rem;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 2px;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns:hover {
+    transition: .5s;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.mini-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    text-align: center;
 }
